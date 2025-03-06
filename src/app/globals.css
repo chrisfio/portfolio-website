@@ -1,18 +1,39 @@
 @import "tailwindcss";
 
 :root {
-  --foreground: #171717;
-  --background: #ffffff;
+  --foreground: #ffffff;
+  --background: #121212;
+  --accent: #ff5a36;
+  --accent-gradient: linear-gradient(135deg, #ff5a36, #ff8c42);
+  --text-secondary: #a0a0a0;
 }
 
-@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: light) {
   :root {
-    --foreground: #ededed;
-    --background: #0a0a0a;
+    /* Keep dark theme as default even in light mode */
+    --foreground: #ffffff;
+    --background: #121212;
   }
 }
 
 body {
   color: var(--foreground);
   background: var(--background);
+}
+
+/* Custom utility classes */
+.gradient-text {
+  background: var(--accent-gradient);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.gradient-bg {
+  background: var(--accent-gradient);
+}
+
+/* Smooth transitions */
+.transition-all {
+  transition: all 0.3s ease;
 }
