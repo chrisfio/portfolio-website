@@ -25,8 +25,8 @@ export default function About() {
         {/* Bio */}
         <div className="mb-12 text-lg">
           <p className="mb-4">
-            Hello!  I am passion about technology and helping customers. 
-            I&apos;'ve been in customer facing roles for over 15 years and within technical customer success roles for over 11 years. 
+            Hello! I am passionate about technology and helping customers. 
+            I&apos;ve been in customer facing roles for over 15 years and within technical customer success roles for over 11 years. 
           </p>
           <p className="mb-4">
             I was last at HUMAN Security, initially as a Customer Success Engineer at PerimeterX as their first CS hire. 
@@ -35,8 +35,8 @@ export default function About() {
             including merging with HUMAN Security. 
           </p>
           <p>
-          I&apos;'m looking to join an earlier stage startup that provides a SaaS solution in Cybersecurity, AI, or Customer Success, 
-          where I can help the company grow and wear multiple hats. 
+            I&apos;m looking to join an earlier stage startup that provides a SaaS solution in Cybersecurity, AI, or Customer Success, 
+            where I can help the company grow and wear multiple hats. 
           </p>
         </div>
         
