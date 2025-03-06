@@ -78,14 +78,20 @@ export default function Home() {
             <div className="absolute inset-0 rounded-xl bg-gradient-to-br from-[#ff5a36] to-[#ff8c42] opacity-30 group-hover:opacity-40 transition-opacity"></div>
             <div className="absolute inset-[2px] rounded-xl bg-[#121212]"></div>
             <div className="relative flex flex-col md:flex-row gap-8 items-center">
-              <div className="w-40 h-40 rounded-full overflow-hidden bg-[#ff5a36] bg-opacity-20 flex items-center justify-center">
-                {/* Placeholder for profile image */}
-                <span className="text-4xl">CF</span>
+              <div className="w-40 h-40 rounded-full overflow-hidden bg-[#ff5a36] bg-opacity-20 relative">
+                <Image 
+                  src="/profile.png" 
+                  alt="Chris Fiorino" 
+                  fill
+                  sizes="160px"
+                  className="object-cover rounded-full"
+                  priority
+                />
               </div>
               <div>
                 <p className="text-lg mb-4">
                 I am passion about technology and helping customers. 
-                I’ve been in customer facing roles for over 15 years and within technical customer success roles for over 11 years.
+                I've been in customer facing roles for over 15 years and within technical customer success roles for over 11 years.
                 </p>
                 <Link href="/about" className="text-sm text-[#ff5a36] hover:underline">
                   Read more about me →
