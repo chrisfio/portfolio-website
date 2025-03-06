@@ -12,7 +12,7 @@ export default function About() {
         {/* Profile Image */}
         <div className="w-40 h-40 mx-auto rounded-full overflow-hidden bg-[#ff5a36] bg-opacity-20 flex items-center justify-center mb-8">
           {/* Replace with your actual image */}
-          <span className="text-4xl">YN</span>
+          <span className="text-4xl">CF</span>
         </div>
         
         {/* Bio */}

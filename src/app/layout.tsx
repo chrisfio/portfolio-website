@@ -11,7 +11,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Your Name | Portfolio",
+  title: "Chris Fiorino | Portfolio",
   description: "Personal portfolio website showcasing my work and skills",
 };
 
@@ -21,15 +21,15 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={`${inter.variable} font-sans antialiased`}>
+    <html lang="en" suppressHydrationWarning>
+      <body className={`${inter.variable} font-sans antialiased`} suppressHydrationWarning>
         <div className="min-h-screen flex flex-col">
           <Navigation />
           <main className="flex-grow">
             {children}
           </main>
           <footer className="py-6 text-center text-sm opacity-60">
-            © {new Date().getFullYear()} Your Name. All rights reserved.
+            © {new Date().getFullYear()} Chris Fiorino. All rights reserved.
           </footer>
         </div>
       </body>

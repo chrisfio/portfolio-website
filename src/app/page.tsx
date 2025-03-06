@@ -11,21 +11,21 @@ export default function Home() {
         {/* Hero Section */}
         <section className="mb-20">
           <h1 className="text-5xl md:text-6xl font-bold mb-6">
-            Hi, I'm <span className="gradient-text">Your Name</span>
+            Hi, I'm <span className="gradient-text">Chris Fiorino</span>
           </h1>
           <p className="text-xl md:text-2xl max-w-2xl text-[#a0a0a0] mb-8">
-            Frontend Developer specializing in modern web technologies, creating responsive and accessible user experiences.
+            Technical professional with extensive experience in customer success, technical account management, and cross-functional collaboration. Proven ability to lead teams, develop strategic plans, and drive product adoption.
           </p>
           <div className="flex flex-wrap gap-4">
             <Link 
-              href="/projects" 
-              className="px-6 py-3 rounded-lg gradient-bg font-medium hover:opacity-90 transition-all"
+              href="/work" 
+              className="px-6 py-3 rounded-lg gradient-bg text-white font-medium hover:opacity-90 transition-all"
             >
               View My Work
             </Link>
             <Link 
               href="/about" 
-              className="px-6 py-3 rounded-lg bg-white bg-opacity-10 font-medium hover:bg-opacity-20 transition-all"
+              className="px-6 py-3 rounded-lg border border-white border-opacity-30 bg-transparent text-white font-medium hover:text-[#121212] hover:bg-white transition-all"
             >
               About Me
             </Link>
@@ -66,7 +66,7 @@ export default function Home() {
           <div className="bg-white bg-opacity-5 rounded-xl p-8 flex flex-col md:flex-row gap-8 items-center">
             <div className="w-40 h-40 rounded-full overflow-hidden bg-[#ff5a36] bg-opacity-20 flex items-center justify-center">
               {/* Placeholder for profile image */}
-              <span className="text-4xl">YN</span>
+              <span className="text-4xl">CF</span>
             </div>
             <div>
               <p className="text-lg mb-4">

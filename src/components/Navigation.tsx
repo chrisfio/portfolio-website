@@ -19,7 +19,7 @@ export default function Navigation() {
       <div className="max-w-5xl mx-auto flex flex-col sm:flex-row justify-between items-center">
         {/* Logo/Name */}
         <Link href="/" className="text-xl font-bold mb-4 sm:mb-0">
-          <span className="gradient-text">Your Name</span>
+          <span className="gradient-text">Chris Fiorino</span>
         </Link>
         
         {/* Navigation Links */}
@@ -41,7 +41,7 @@ export default function Navigation() {
           <li>
             <Link 
               href="/contact" 
-              className="ml-2 px-4 py-2 rounded-full bg-white bg-opacity-10 hover:bg-opacity-20 transition-all text-sm font-medium"
+              className="ml-2 px-4 py-2 rounded-lg gradient-bg text-white font-medium hover:opacity-90 transition-all text-sm"
             >
               Contact Me
             </Link>
