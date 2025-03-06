@@ -23,7 +23,7 @@ export default function Navigation() {
         </Link>
         
         {/* Navigation Links */}
-        <ul className="flex space-x-6 items-center">
+        <ul className="flex flex-wrap justify-center items-center gap-4 sm:gap-6">
           {links.map(({ href, label }) => (
             <li key={href}>
               <Link 
@@ -41,7 +41,7 @@ export default function Navigation() {
           <li>
             <Link 
               href="/contact" 
-              className="ml-2 px-4 py-2 rounded-lg gradient-bg text-white font-medium hover:opacity-90 transition-all text-sm"
+              className="px-4 py-2 rounded-lg gradient-bg text-white font-medium hover:opacity-90 transition-all text-sm whitespace-nowrap"
             >
               Contact Me
             </Link>
