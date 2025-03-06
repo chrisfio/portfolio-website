@@ -18,16 +18,18 @@ export default function About() {
         {/* Bio */}
         <div className="mb-12 text-lg">
           <p className="mb-4">
-            Hello! I'm a passionate frontend developer with over 5 years of experience building modern web applications.
-            I specialize in creating responsive, accessible, and performant user interfaces using React, Next.js, and TypeScript.
+            Hello!  I am passion about technology and helping customers. 
+            I’ve been in customer facing roles for over 15 years and within technical customer success roles for over 11 years. 
           </p>
           <p className="mb-4">
-            My journey in web development began when I built my first website in college. Since then, I've worked with various companies
-            to deliver high-quality digital experiences that users love.
+            I was last at HUMAN Security, initially as a Customer Success Engineer at PerimeterX as their first CS hire. 
+            Eventually, through multiple promotions, I became the Sr Dir of Technical Account Management with a portfolio of over $65 mil
+            in ARR. During this time, I built out functions and led the team through significant growth and organizational transitions, 
+            including merging with HUMAN Security. 
           </p>
           <p>
-            When I'm not coding, you can find me hiking, reading, or experimenting with new technologies.
-            I'm always open to new opportunities and collaborations.
+          I’m looking to join an earlier stage startup that provides a SaaS solution in Cybersecurity, AI, or Customer Success, 
+          where I can help the company grow and wear multiple hats. 
           </p>
         </div>
         

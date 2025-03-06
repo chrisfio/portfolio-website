@@ -25,7 +25,7 @@ export default function Home() {
             </Link>
             <Link 
               href="/about" 
-              className="px-6 py-3 rounded-lg border border-white border-opacity-30 bg-transparent text-white font-medium hover:text-[#121212] hover:bg-white transition-all"
+              className="px-6 py-3 rounded-lg border border-white border-opacity-30 bg-transparent text-white font-medium hover-subtle transition-all"
             >
               About Me
             </Link>
@@ -36,21 +36,31 @@ export default function Home() {
         <section className="mb-20">
           <h2 className="text-3xl font-bold mb-8">Featured Work</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <div className="bg-white bg-opacity-5 rounded-xl p-6 hover:bg-opacity-10 transition-all">
-              <h3 className="text-xl font-semibold mb-2">Company Name</h3>
-              <p className="text-[#a0a0a0] mb-4">Senior Frontend Developer • 2021-Present</p>
-              <p>Led development of responsive web applications using React and Next.js.</p>
-              <Link href="/work" className="text-sm text-[#ff5a36] mt-4 inline-block hover:underline">
-                View details →
-              </Link>
+            <div className="relative rounded-xl p-6 group">
+              {/* Gradient border effect */}
+              <div className="absolute inset-0 rounded-xl bg-gradient-to-br from-[#ff5a36] to-[#ff8c42] opacity-30 group-hover:opacity-40 transition-opacity"></div>
+              <div className="absolute inset-[2px] rounded-xl bg-[#121212]"></div>
+              <div className="relative">
+                <h3 className="text-xl font-semibold mb-2">HUMAN Security</h3>
+                <p className="text-[#a0a0a0] mb-4">Senior Director of Technical Account Management • 2018-2025</p>
+                <p>Led customer success team managing $65M in ARR, beating churn goals through strategic oversight.</p>
+                <Link href="/work" className="text-sm text-[#ff5a36] mt-4 inline-block hover:underline">
+                  View details →
+                </Link>
+              </div>
             </div>
-            <div className="bg-white bg-opacity-5 rounded-xl p-6 hover:bg-opacity-10 transition-all">
-              <h3 className="text-xl font-semibold mb-2">EarliBirdi</h3>
-              <p className="text-[#a0a0a0] mb-4">Side Project • 2023</p>
-              <p>A tool for golfers to get prime tee times.</p>
-              <Link href="/projects" className="text-sm text-[#ff5a36] mt-4 inline-block hover:underline">
-                View details →
-              </Link>
+            <div className="relative rounded-xl p-6 group">
+              {/* Gradient border effect */}
+              <div className="absolute inset-0 rounded-xl bg-gradient-to-br from-[#ff5a36] to-[#ff8c42] opacity-30 group-hover:opacity-40 transition-opacity"></div>
+              <div className="absolute inset-[2px] rounded-xl bg-[#121212]"></div>
+              <div className="relative">
+                <h3 className="text-xl font-semibold mb-2">EarliBirdi</h3>
+                <p className="text-[#a0a0a0] mb-4">Side Project • 2025</p>
+                <p>EarliBirdi takes a common pain point for busy golfers — prime tee times are all booked, requiring golfers to constantly refresh tee sheets to find their ideal playing times—and solves it with an automated, alert system.</p>
+                <Link href="/projects" className="text-sm text-[#ff5a36] mt-4 inline-block hover:underline">
+                  View details →
+                </Link>
+              </div>
             </div>
           </div>
           <div className="mt-8 text-center">
@@ -63,19 +73,24 @@ export default function Home() {
         {/* About Section Preview */}
         <section>
           <h2 className="text-3xl font-bold mb-8">About Me</h2>
-          <div className="bg-white bg-opacity-5 rounded-xl p-8 flex flex-col md:flex-row gap-8 items-center">
-            <div className="w-40 h-40 rounded-full overflow-hidden bg-[#ff5a36] bg-opacity-20 flex items-center justify-center">
-              {/* Placeholder for profile image */}
-              <span className="text-4xl">CF</span>
-            </div>
-            <div>
-              <p className="text-lg mb-4">
-                I'm a passionate developer with expertise in building modern web applications.
-                I focus on creating clean, efficient, and user-friendly experiences.
-              </p>
-              <Link href="/about" className="text-sm text-[#ff5a36] hover:underline">
-                Read more about me →
-              </Link>
+          <div className="relative rounded-xl p-8 group">
+            {/* Gradient border effect - same as featured work cards */}
+            <div className="absolute inset-0 rounded-xl bg-gradient-to-br from-[#ff5a36] to-[#ff8c42] opacity-30 group-hover:opacity-40 transition-opacity"></div>
+            <div className="absolute inset-[2px] rounded-xl bg-[#121212]"></div>
+            <div className="relative flex flex-col md:flex-row gap-8 items-center">
+              <div className="w-40 h-40 rounded-full overflow-hidden bg-[#ff5a36] bg-opacity-20 flex items-center justify-center">
+                {/* Placeholder for profile image */}
+                <span className="text-4xl">CF</span>
+              </div>
+              <div>
+                <p className="text-lg mb-4">
+                I am passion about technology and helping customers. 
+                I’ve been in customer facing roles for over 15 years and within technical customer success roles for over 11 years.
+                </p>
+                <Link href="/about" className="text-sm text-[#ff5a36] hover:underline">
+                  Read more about me →
+                </Link>
+              </div>
             </div>
           </div>
         </section>
