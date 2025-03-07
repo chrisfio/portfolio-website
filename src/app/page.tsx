@@ -11,7 +11,7 @@ export default function Home() {
         {/* Hero Section */}
         <section className="mb-20">
           <h1 className="text-5xl md:text-6xl font-bold mb-6">
-            Hi, I'm <span className="gradient-text">Chris Fiorino</span>
+            Hi, I&apos;m <span className="gradient-text">Chris Fiorino</span>
           </h1>
           <p className="text-xl md:text-2xl max-w-2xl text-[#a0a0a0] mb-8">
             Technical professional with extensive experience in customer success, technical account management, and cross-functional collaboration. Proven ability to lead teams, develop strategic plans, and drive product adoption.
@@ -90,8 +90,8 @@ export default function Home() {
               </div>
               <div>
                 <p className="text-lg mb-4">
-                I am passion about technology and helping customers. 
-                I've been in customer facing roles for over 15 years and within technical customer success roles for over 11 years.
+                I am passionate about technology and helping customers. 
+                I&apos;ve been in customer facing roles for over 15 years and within technical customer success roles for over 11 years.
                 </p>
                 <Link href="/about" className="text-sm text-[#ff5a36] hover:underline">
                   Read more about me →
