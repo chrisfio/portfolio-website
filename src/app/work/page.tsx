@@ -49,7 +49,7 @@ export default function Work() {
           title: "Customer Success Engineer",
           period: "Apr 2018 - Aug 2019",
           description: [
-            "Owned key customer relationships, conducted business reviews, drove adoptoin, aligned product roadmaps with client needs to drive satisfaction.",
+            "Owned key customer relationships, conducted business reviews, drove adoption, aligned product roadmaps with client needs to drive satisfaction.",
             "Analyzed usage data to identify trends and opportunities, informing product strategy and improvements."
           ],
           skills: ["Customer Relationship Management", "Data Analysis", "Product Strategy", "Business Reviews"]
@@ -99,11 +99,11 @@ export default function Work() {
     {
       id: "morgan-stanley",
       company: "Morgan Stanley",
-      period: "Apr 2011 – May 2013",
+      period: "Apr 2011 - May 2013",
       roles: [
         {
           title: "Analyst I -> III (Securities Based Lending)",
-          period: "Apr 2011 – May 2013",
+          period: "Apr 2011 - May 2013",
           description: [
             "Progressed from Analyst I to Analyst III within the Securities Based Lending department",
             "Managed lending operations and client relationships"
