@@ -18,7 +18,7 @@ export default function Projects() {
       id: "portfolio-site",
       title: "This Personal Portfolio Site",
       description: "This is my personal portfolio site. It is built with Next.js and React.",
-      tags: ["Next.js", "React", "Node.js", "Tailwind CSS"],
+      tags: ["Next.js", "React", "Node.js", "Tailwind CSS", "Vercel"],
       link: "https://chrisfiorino.com",
       imageUrl: "/portfolio-site.png",
       year: "2025"

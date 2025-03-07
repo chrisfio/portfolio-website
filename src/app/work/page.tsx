@@ -10,10 +10,10 @@ export default function Work() {
           title: "Senior Director of Technical Account Management",
           period: "Apr 2024 - Feb 2025",
           description: [
-            "Managed a customer base of $65 million in ARR, beating churn goal in final three quarters of 2024, through strategic oversight and proactive risk management.",
-            "Took over leadership of 10 person customer success team in April, implementing Gong, improving Salesforce hygiene, and initial phase of integration of JIRA Service Manager."
+            "Oversaw a $65M ARR customer base, reducing churn by exceeding targets in Q2–Q4 2024 through strategic account management and risk mitigation.",
+            "Assumed leadership of a 10-person customer success team, introducing Gong for call analytics, streamlining Salesforce processes, and initiating JIRA Service Manager integration—improving team efficiency and response times."
           ],
-          technologies: ["Customer Success", "Team Leadership", "Strategic Planning", "Risk Management"]
+          skills: ["Gong", "JIRA Service Manager", "Salesforce", "Team Leadership", "Strategic Planning", "Risk Management"]
         },
         {
           title: "Director of Customer Success",
@@ -24,7 +24,7 @@ export default function Work() {
             "Developed internal processes and customer engagement strategies",
             "Executed strategic account plans to increase product adoption and maximize revenue"
           ],
-          technologies: ["Customer Success", "Post-Merger Integration", "Strategic Planning", "Revenue Management"]
+          skills: ["Customer Success", "Post-Merger Integration", "Strategic Planning", "Revenue Management"]
         },
         {
           title: "Manager, Customer Success Engineering",
@@ -34,7 +34,7 @@ export default function Work() {
             "Acted as escalation point for critical issues, resolving complex challenges efficiently",
             "Developed strategic account plans focused on enhancing product adoption, retention, and CS identified expansion opportunities"
           ],
-          technologies: ["Team Building", "Technical Problem Solving", "Strategic Planning"]
+          skills: ["Team Building", "Technical Problem Solving", "Strategic Planning"]
         },
         {
           title: "Senior Customer Success Engineer",
@@ -43,7 +43,7 @@ export default function Work() {
             "Created and owned the company\"s first Professional Services offering (Sneaker and Hype Sale Protection), identifying market needs and delivering solutions. Generating over $1 million in additional ARR.",
             "Authored blogs and webinars to educate customers on product features and industry trends."
           ],
-          technologies: ["Professional Services", "Content Creation", "Technical Writing"]
+          skills: ["Professional Services", "Content Creation", "Technical Writing"]
         },
         {
           title: "Customer Success Engineer",
@@ -52,7 +52,7 @@ export default function Work() {
             "Owned key customer relationships, aligning product roadmaps with customer needs",
             "Analyzed usage data to identify trends and opportunities, informing product strategy"
           ],
-          technologies: ["Customer Relationship Management", "Data Analysis", "Product Strategy"]
+          skills: ["Customer Relationship Management", "Data Analysis", "Product Strategy"]
         }
       ]
     },
@@ -67,7 +67,7 @@ export default function Work() {
           description: [
             "Developed custom web and mobile app solutions for clients"
           ],
-          technologies: ["Web Development", "CSS", "JavaScript", "JQuery"]
+          skills: ["Web Development", "CSS", "JavaScript", "JQuery"]
         }
       ]
     },
@@ -83,7 +83,7 @@ export default function Work() {
             "Managed key publisher relationships and ensured customer satisfaction",
             "Developed strategies to increase publisher revenue and engagement"
           ],
-          technologies: ["Customer Success", "Relationship Management", "Revenue Optimization"]
+          skills: ["Customer Success", "Relationship Management", "Revenue Optimization"]
         },
         {
           title: "Publisher Delivery Manager (Customer Success)",
@@ -92,7 +92,7 @@ export default function Work() {
             "Supported publishers in implementing and optimizing ad solutions",
             "Troubleshot technical issues and ensured smooth delivery of services"
           ],
-          technologies: ["Technical Support", "Implementation", "Problem Solving"]
+          skills: ["Technical Support", "Implementation", "Problem Solving"]
         }
       ]
     },
@@ -108,7 +108,7 @@ export default function Work() {
             "Progressed from Analyst I to Analyst III within the Securities Based Lending department",
             "Managed lending operations and client relationships"
           ],
-          technologies: ["Financial Analysis", "Client Relationship Management", "Securities"]
+          skills: ["Financial Analysis", "Client Relationship Management", "Securities"]
         }
       ]
     }
@@ -155,7 +155,7 @@ export default function Work() {
                       </ul>
                       
                       <div className="flex flex-wrap gap-2 mt-4">
-                        {role.technologies.map((tech) => (
+                        {role.skills.map((tech) => (
                           <span key={tech} className="px-3 py-1 bg-white bg-opacity-80 rounded-full text-xs text-black">
                             {tech}
                           </span>
