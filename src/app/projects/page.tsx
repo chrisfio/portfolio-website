@@ -1,27 +1,27 @@
-import Link from 'next/link';
-import Image from 'next/image';
+import Link from "next/link";
+import Image from "next/image";
 
 export default function Projects() {
   // Project data
   const projects = [
     {
-      id: 'earlibirdi',
-      title: 'EarliBirdi',
-      description: 'A tool for golfers to get prime tee times. Automatically books tee times when they become available.',
-      tags: ['Next.js', 'React', 'Node.js', 'Tailwind CSS'],
-      link: 'https://earlibirdi.com',
-      imageUrl: '/placeholder-project.jpg', // Add a placeholder image to your public folder
-      year: '2023'
+      id: "earlibirdi",
+      title: "EarliBirdi",
+      description: "A tool for golfers to get prime tee times. Automatically books tee times when they become available.",
+      tags: ["Next.js", "React", "Node.js", "Tailwind CSS"],
+      link: "https://earlibirdi.com",
+      imageUrl: "/placeholder-project.jpg", // Add a placeholder image to your public folder
+      year: "2023"
     },
     // Add more projects as needed
     {
-      id: 'project-2',
-      title: 'Project Two',
-      description: 'A placeholder for your next amazing project.',
-      tags: ['React', 'TypeScript', 'Firebase'],
-      link: '#',
-      imageUrl: '/placeholder-project.jpg',
-      year: '2022'
+      id: "project-2",
+      title: "Project Two",
+      description: "A placeholder for your next amazing project.",
+      tags: ["React", "TypeScript", "Firebase"],
+      link: "#",
+      imageUrl: "/placeholder-project.jpg",
+      year: "2022"
     },
   ];
 
