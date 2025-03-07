@@ -9,7 +9,7 @@ export default function Contact() {
         
         <div className="bg-white bg-opacity-5 rounded-xl p-8">
           <p className="text-center mb-8">
-            I'm currently open to new opportunities and collaborations. 
+            I&apos;m currently open to new opportunities and collaborations. 
             Feel free to reach out through any of the channels below.
           </p>
           
