@@ -28,7 +28,7 @@ export default function Work() {
         },
         {
           title: "Manager, Customer Success Engineering",
-          period: "Jul 2020 – Jan 2022",
+          period: "Jul 2020 - Jan 2022",
           description: [
             "Built and led a team of seven customer success engineers and managers",
             "Acted as escalation point for critical issues, resolving complex challenges efficiently",
@@ -38,7 +38,7 @@ export default function Work() {
         },
         {
           title: "Senior Customer Success Engineer",
-          period: "Aug 2019 – Jul 2020",
+          period: "Aug 2019 - Jul 2020",
           description: [
             "Created and owned the company\"s first Professional Services offering (Sneaker and Hype Sale Protection), identifying market needs and delivering solutions. Generating over $1 million in additional ARR.",
             "Authored blogs and webinars to educate customers on product features and industry trends."
@@ -47,7 +47,7 @@ export default function Work() {
         },
         {
           title: "Customer Success Engineer",
-          period: "Apr 2018 – Aug 2019",
+          period: "Apr 2018 - Aug 2019",
           description: [
             "Owned key customer relationships, aligning product roadmaps with customer needs",
             "Analyzed usage data to identify trends and opportunities, informing product strategy"
@@ -59,16 +59,15 @@ export default function Work() {
     {
       id: "analytixbar",
       company: "AnalytixBar LLC",
-      period: "Oct 2017 - April 2018",
+      period: "Oct 2017 - Apr 2018",
       roles: [
         {
           title: "Freelance Web Developer",
-          period: "Oct 2017 - April 2018",
+          period: "Oct 2017 - Apr 2018",
           description: [
-            "Developed custom web solutions for clients",
-            "Managed full project lifecycle from requirements gathering to deployment"
+            "Developed custom web and mobile app solutions for clients"
           ],
-          technologies: ["Web Development", "Client Management", "Project Management"]
+          technologies: ["Web Development", "CSS", "JavaScript", "JQuery"]
         }
       ]
     },
