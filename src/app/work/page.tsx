@@ -2,114 +2,114 @@ export default function Work() {
   // Work experience data
   const experiences = [
     {
-      id: 'human',
-      company: 'HUMAN (formerly PerimeterX)',
-      period: '2018 - 2025',
+      id: "human",
+      company: "HUMAN (formerly PerimeterX)",
+      period: "2018 - 2025",
       roles: [
         {
-          title: 'Senior Director of Technical Account Management',
-          period: 'April 2024 - Feb 2025',
+          title: "Senior Director of Technical Account Management",
+          period: "April 2024 - Feb 2025",
           description: [
-            'Managed a customer base of $65 million in ARR, beating churn goal in final three quarters of 2024, through strategic oversight and proactive risk management.',
-            'Took over leadership of 10 person customer success team in April, implementing Gong, improving Salesforce hygiene, and initial phase of integration of JIRA Service Manager.'
+            "Managed a customer base of $65 million in ARR, beating churn goal in final three quarters of 2024, through strategic oversight and proactive risk management.",
+            "Took over leadership of 10 person customer success team in April, implementing Gong, improving Salesforce hygiene, and initial phase of integration of JIRA Service Manager."
           ],
-          technologies: ['Customer Success', 'Team Leadership', 'Strategic Planning', 'Risk Management']
+          technologies: ["Customer Success", "Team Leadership", "Strategic Planning", "Risk Management"]
         },
         {
-          title: 'Director of Customer Success',
-          period: 'Jan 2022 - April 2024',
+          title: "Director of Customer Success",
+          period: "Jan 2022 - April 2024",
           description: [
-            'Expanded oversight to include full Customer Success team, driving team growth and product adoption. Responsible for approximately $35 million in ARR.',
-            'Led team and customer base during post-merger integration with HUMAN beginning in Aug 2022, ensuring continuity and high satisfaction.',
-            'Developed internal processes and customer engagement strategies',
-            'Executed strategic account plans to increase product adoption and maximize revenue'
+            "Expanded oversight to include full Customer Success team, driving team growth and product adoption. Responsible for approximately $35 million in ARR.",
+            "Led team and customer base during post-merger integration with HUMAN beginning in Aug 2022, ensuring continuity and high satisfaction.",
+            "Developed internal processes and customer engagement strategies",
+            "Executed strategic account plans to increase product adoption and maximize revenue"
           ],
-          technologies: ['Customer Success', 'Post-Merger Integration', 'Strategic Planning', 'Revenue Management']
+          technologies: ["Customer Success", "Post-Merger Integration", "Strategic Planning", "Revenue Management"]
         },
         {
-          title: 'Manager, Customer Success Engineering',
-          period: 'Jul 2020 – Jan 2022',
+          title: "Manager, Customer Success Engineering",
+          period: "Jul 2020 – Jan 2022",
           description: [
-            'Built and led a team of seven customer success engineers and managers',
-            'Acted as escalation point for critical issues, resolving complex challenges efficiently',
-            'Developed strategic account plans focused on enhancing product adoption, retention, and CS identified expansion opportunities'
+            "Built and led a team of seven customer success engineers and managers",
+            "Acted as escalation point for critical issues, resolving complex challenges efficiently",
+            "Developed strategic account plans focused on enhancing product adoption, retention, and CS identified expansion opportunities"
           ],
-          technologies: ['Team Building', 'Technical Problem Solving', 'Strategic Planning']
+          technologies: ["Team Building", "Technical Problem Solving", "Strategic Planning"]
         },
         {
-          title: 'Senior Customer Success Engineer',
-          period: 'Aug 2019 – Jul 2020',
+          title: "Senior Customer Success Engineer",
+          period: "Aug 2019 – Jul 2020",
           description: [
-            'Created and owned the company\'s first Professional Services offering (Sneaker and Hype Sale Protection), identifying market needs and delivering solutions. Generating over $1 million in additional ARR.',
-            'Authored blogs and webinars to educate customers on product features and industry trends.'
+            "Created and owned the company\"s first Professional Services offering (Sneaker and Hype Sale Protection), identifying market needs and delivering solutions. Generating over $1 million in additional ARR.",
+            "Authored blogs and webinars to educate customers on product features and industry trends."
           ],
-          technologies: ['Professional Services', 'Content Creation', 'Technical Writing']
+          technologies: ["Professional Services", "Content Creation", "Technical Writing"]
         },
         {
-          title: 'Customer Success Engineer',
-          period: 'Apr 2018 – Aug 2019',
+          title: "Customer Success Engineer",
+          period: "Apr 2018 – Aug 2019",
           description: [
-            'Owned key customer relationships, aligning product roadmaps with customer needs',
-            'Analyzed usage data to identify trends and opportunities, informing product strategy'
+            "Owned key customer relationships, aligning product roadmaps with customer needs",
+            "Analyzed usage data to identify trends and opportunities, informing product strategy"
           ],
-          technologies: ['Customer Relationship Management', 'Data Analysis', 'Product Strategy']
+          technologies: ["Customer Relationship Management", "Data Analysis", "Product Strategy"]
         }
       ]
     },
     {
-      id: 'analytixbar',
-      company: 'AnalytixBar LLC',
-      period: 'Oct 2017 - April 2018',
+      id: "analytixbar",
+      company: "AnalytixBar LLC",
+      period: "Oct 2017 - April 2018",
       roles: [
         {
-          title: 'Freelance Web Developer',
-          period: 'Oct 2017 - April 2018',
+          title: "Freelance Web Developer",
+          period: "Oct 2017 - April 2018",
           description: [
-            'Developed custom web solutions for clients',
-            'Managed full project lifecycle from requirements gathering to deployment'
+            "Developed custom web solutions for clients",
+            "Managed full project lifecycle from requirements gathering to deployment"
           ],
-          technologies: ['Web Development', 'Client Management', 'Project Management']
+          technologies: ["Web Development", "Client Management", "Project Management"]
         }
       ]
     },
     {
-      id: 'exponential',
-      company: 'Exponential Interactive',
-      period: '2013 - 2017',
+      id: "exponential",
+      company: "Exponential Interactive",
+      period: "2013 - 2017",
       roles: [
         {
-          title: 'Sr. Publisher Development Manager (Customer Success)',
-          period: 'Apr 2016 - Sept 2017',
+          title: "Sr. Publisher Development Manager (Customer Success)",
+          period: "Apr 2016 - Sept 2017",
           description: [
-            'Managed key publisher relationships and ensured customer satisfaction',
-            'Developed strategies to increase publisher revenue and engagement'
+            "Managed key publisher relationships and ensured customer satisfaction",
+            "Developed strategies to increase publisher revenue and engagement"
           ],
-          technologies: ['Customer Success', 'Relationship Management', 'Revenue Optimization']
+          technologies: ["Customer Success", "Relationship Management", "Revenue Optimization"]
         },
         {
-          title: 'Publisher Delivery Manager (Customer Success)',
-          period: 'May 2013 - Apr 2016',
+          title: "Publisher Delivery Manager (Customer Success)",
+          period: "May 2013 - Apr 2016",
           description: [
-            'Supported publishers in implementing and optimizing ad solutions',
-            'Troubleshot technical issues and ensured smooth delivery of services'
+            "Supported publishers in implementing and optimizing ad solutions",
+            "Troubleshot technical issues and ensured smooth delivery of services"
           ],
-          technologies: ['Technical Support', 'Implementation', 'Problem Solving']
+          technologies: ["Technical Support", "Implementation", "Problem Solving"]
         }
       ]
     },
     {
-      id: 'morgan-stanley',
-      company: 'Morgan Stanley',
-      period: 'Apr 2011 – May 2013',
+      id: "morgan-stanley",
+      company: "Morgan Stanley",
+      period: "Apr 2011 – May 2013",
       roles: [
         {
-          title: 'Analyst I -> III (Securities Based Lending)',
-          period: 'Apr 2011 – May 2013',
+          title: "Analyst I -> III (Securities Based Lending)",
+          period: "Apr 2011 – May 2013",
           description: [
-            'Progressed from Analyst I to Analyst III within the Securities Based Lending department',
-            'Managed lending operations and client relationships'
+            "Progressed from Analyst I to Analyst III within the Securities Based Lending department",
+            "Managed lending operations and client relationships"
           ],
-          technologies: ['Financial Analysis', 'Client Relationship Management', 'Securities']
+          technologies: ["Financial Analysis", "Client Relationship Management", "Securities"]
         }
       ]
     }
