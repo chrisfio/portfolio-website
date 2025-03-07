@@ -41,9 +41,9 @@ export default function Home() {
               <div className="absolute inset-0 rounded-xl bg-gradient-to-br from-[#ff5a36] to-[#ff8c42] opacity-30 group-hover:opacity-40 transition-opacity"></div>
               <div className="absolute inset-[2px] rounded-xl bg-[#121212]"></div>
               <div className="relative">
-                <h3 className="text-xl font-semibold mb-2">HUMAN Security</h3>
-                <p className="text-[#a0a0a0] mb-4">Senior Director of Technical Account Management • 2018-2025</p>
-                <p>Led customer success team managing $65M in ARR, beating churn goals through strategic oversight.</p>
+                <h3 className="text-xl font-semibold mb-2">HUMAN Security • <span className="font-normal">2018-2025</span></h3>
+                <p className="text-[#a0a0a0] mb-4">Senior Director of Technical Account Management</p>
+                <p>Led customer success team managing $65M in ARR, beating churn goals through strategic leadership and oversight.</p>
                 <Link href="/work" className="text-sm text-[#ff5a36] mt-4 inline-block hover:underline">
                   View details →
                 </Link>
@@ -54,8 +54,8 @@ export default function Home() {
               <div className="absolute inset-0 rounded-xl bg-gradient-to-br from-[#ff5a36] to-[#ff8c42] opacity-30 group-hover:opacity-40 transition-opacity"></div>
               <div className="absolute inset-[2px] rounded-xl bg-[#121212]"></div>
               <div className="relative">
-                <h3 className="text-xl font-semibold mb-2">EarliBirdi</h3>
-                <p className="text-[#a0a0a0] mb-4">Side Project • 2025</p>
+                <h3 className="text-xl font-semibold mb-2">EarliBirdi • <span className="font-normal">2025</span></h3>
+                <p className="text-[#a0a0a0] mb-4">Side Project • </p>
                 <p>EarliBirdi takes a common pain point for busy golfers — prime tee times are all booked, requiring golfers to constantly refresh tee sheets to find their ideal playing times—and solves it with an automated, alert system.</p>
                 <Link href="/projects" className="text-sm text-[#ff5a36] mt-4 inline-block hover:underline">
                   View details →
