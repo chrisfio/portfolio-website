@@ -11,7 +11,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Chris Fiorino | Portfolio",
+  title: "Chris Fiorino | Technology Enthusiast, Startup and Customer Success Leader",
   description: "Personal portfolio website showcasing my work and skills",
   icons: {
     icon: [
