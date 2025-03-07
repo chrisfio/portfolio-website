@@ -4,11 +4,11 @@ export default function Work() {
     {
       id: "human",
       company: "HUMAN (formerly PerimeterX)",
-      period: "2018 - 2025",
+      period: "Apr 2018 - Feb 2025",
       roles: [
         {
           title: "Senior Director of Technical Account Management",
-          period: "April 2024 - Feb 2025",
+          period: "Apr 2024 - Feb 2025",
           description: [
             "Managed a customer base of $65 million in ARR, beating churn goal in final three quarters of 2024, through strategic oversight and proactive risk management.",
             "Took over leadership of 10 person customer success team in April, implementing Gong, improving Salesforce hygiene, and initial phase of integration of JIRA Service Manager."
@@ -17,7 +17,7 @@ export default function Work() {
         },
         {
           title: "Director of Customer Success",
-          period: "Jan 2022 - April 2024",
+          period: "Jan 2022 - Apr 2024",
           description: [
             "Expanded oversight to include full Customer Success team, driving team growth and product adoption. Responsible for approximately $35 million in ARR.",
             "Led team and customer base during post-merger integration with HUMAN beginning in Aug 2022, ensuring continuity and high satisfaction.",
