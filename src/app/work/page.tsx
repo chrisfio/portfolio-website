@@ -10,49 +10,49 @@ export default function Work() {
           title: "Senior Director of Technical Account Management",
           period: "Apr 2024 - Feb 2025",
           description: [
-            "Oversaw a $65M ARR customer base, reducing churn by exceeding targets in Q2–Q4 2024 through strategic account management and risk mitigation.",
+            "Oversaw a $65M ARR customer base, reducing churn by exceeding targets in Q2-Q4 2024 through strategic account management and proactive risk mitigation.",
             "Assumed leadership of a 10-person customer success team, introducing Gong for call analytics, streamlining Salesforce processes, and initiating JIRA Service Manager integration—improving team efficiency and response times."
           ],
-          skills: ["Gong", "JIRA Service Manager", "Salesforce", "Team Leadership", "Strategic Planning", "Risk Management"]
+          skills: ["Team Leadership", "Strategic Planning", "Customer Success", "Process Optimization"]
         },
         {
           title: "Director of Customer Success",
           period: "Jan 2022 - Apr 2024",
           description: [
-            "Expanded oversight to include full Customer Success team, driving team growth and product adoption. Responsible for approximately $35 million in ARR.",
-            "Led team and customer base during post-merger integration with HUMAN beginning in Aug 2022, ensuring continuity and high satisfaction.",
-            "Developed internal processes and customer engagement strategies",
-            "Executed strategic account plans to increase product adoption and maximize revenue"
+            "Expanded oversight to the full Customer Success team, driving team growth and increasing product adoption, managing approximately $35M in ARR.",
+            "Led team and customer base through post-merger integration with HUMAN (Aug 2022), ensuring continuity and maintaining high customer satisfaction.",
+            "Developed internal processes and customer engagement strategies to optimize operations and enhance retention.",
+            "Executed strategic account plans, boosting product adoption and maximizing revenue through targeted initiatives."
           ],
-          skills: ["Customer Success", "Post-Merger Integration", "Strategic Planning", "Revenue Management"]
+          skills: ["Merger Integration", "Team Leadership", "Strategic Account Planning", "Process Development"]
         },
         {
           title: "Manager, Customer Success Engineering",
           period: "Jul 2020 - Jan 2022",
           description: [
-            "Built and led a team of seven customer success engineers and managers",
-            "Acted as escalation point for critical issues, resolving complex challenges efficiently",
-            "Developed strategic account plans focused on enhancing product adoption, retention, and CS identified expansion opportunities"
+            "Built and led a team of seven customer success engineers and managers, fostering a collaborative and high-performing environment.",
+            "Served as the escalation point for critical issues, resolving complex technical challenges efficiently.",
+            "Developed strategic account plans to enhance product adoption, improve retention, and identify expansion opportunities for key clients."
           ],
-          skills: ["Team Building", "Technical Problem Solving", "Strategic Planning"]
+          skills: ["Team Building", "Technical Problem Solving", "Strategic Planning", "Opportunity Identification"]
         },
         {
           title: "Senior Customer Success Engineer",
           period: "Aug 2019 - Jul 2020",
           description: [
-            "Created and owned the company\"s first Professional Services offering (Sneaker and Hype Sale Protection), identifying market needs and delivering solutions. Generating over $1 million in additional ARR.",
-            "Authored blogs and webinars to educate customers on product features and industry trends."
+            "Created and owned the company’s first Professional Services offering (Sneaker and Hype Sale Protection), identifying market needs and generating over $1M in additional ARR.",
+            "Authored blogs and webinars to educate customers on product features and industry trends, enhancing engagement."
           ],
-          skills: ["Professional Services", "Content Creation", "Technical Writing"]
+          skills: ["Professional Services", "Content Creation", "Product Innovation", "Customer Success Engineering"]
         },
         {
           title: "Customer Success Engineer",
           period: "Apr 2018 - Aug 2019",
           description: [
-            "Owned key customer relationships, aligning product roadmaps with customer needs",
-            "Analyzed usage data to identify trends and opportunities, informing product strategy"
+            "Owned key customer relationships, conducted business reviews, drove adoptoin, aligned product roadmaps with client needs to drive satisfaction.",
+            "Analyzed usage data to identify trends and opportunities, informing product strategy and improvements."
           ],
-          skills: ["Customer Relationship Management", "Data Analysis", "Product Strategy"]
+          skills: ["Customer Relationship Management", "Data Analysis", "Product Strategy", "Business Reviews"]
         }
       ]
     },
@@ -83,7 +83,7 @@ export default function Work() {
             "Managed key publisher relationships and ensured customer satisfaction",
             "Developed strategies to increase publisher revenue and engagement"
           ],
-          skills: ["Customer Success", "Relationship Management", "Revenue Optimization"]
+          skills: ["Account Management", "Relationship Management", "Revenue Growth"]
         },
         {
           title: "Publisher Delivery Manager (Customer Success)",
@@ -108,7 +108,7 @@ export default function Work() {
             "Progressed from Analyst I to Analyst III within the Securities Based Lending department",
             "Managed lending operations and client relationships"
           ],
-          skills: ["Financial Analysis", "Client Relationship Management", "Securities"]
+          skills: ["Financial Analysis", "Client Support", "Risk Management"]
         }
       ]
     }
