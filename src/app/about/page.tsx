@@ -35,7 +35,7 @@ export default function About() {
             including merging with HUMAN Security. 
           </p>
           <p>
-            Seeking a leadership role in Customer Success to lead high-performing teams, accelerate adoption and value realization, and deliver exceptional customer outcomes.
+            I am seeking a leadership role in Customer Success to lead high-performing teams, accelerate adoption and value realization, and deliver exceptional customer outcomes.
           </p>
         </div>
         
