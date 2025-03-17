@@ -35,8 +35,7 @@ export default function About() {
             including merging with HUMAN Security. 
           </p>
           <p>
-            I&apos;m looking to join an earlier stage startup that provides a SaaS solution in Cybersecurity, AI, or Customer Success, 
-            where I can help the company grow and wear multiple hats. 
+            Seeking a leadership role in Customer Success to lead high-performing teams, accelerate adoption and value realization, and deliver exceptional customer outcomes.
           </p>
         </div>
         
