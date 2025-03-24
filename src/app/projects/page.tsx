@@ -7,7 +7,7 @@ export default function Projects() {
     {
       id: "earlibirdi",
       title: "EarliBirdi",
-      description: "A tool for golfers to get prime tee times. Automatically books tee times when they become available.",
+      description: "A tool for golfers to get prime tee times. Automatically notifying users of tee times when they become available.",
       tags: ["React", "Node.js", "Firebase"],
       link: "https://earlibirdi.com",
       imageUrl: "/earlibirdi.png", // Add a placeholder image to your public folder
