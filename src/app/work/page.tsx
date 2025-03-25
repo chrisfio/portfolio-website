@@ -40,7 +40,7 @@ export default function Work() {
           title: "Senior Customer Success Engineer",
           period: "Aug 2019 - Jul 2020",
           description: [
-            "Created and owned the company’s first Professional Services offering (Sneaker and Hype Sale Protection), identifying market needs and generating over $1M in additional ARR.",
+            "Created and owned the company's first Professional Services offering (Sneaker and Hype Sale Protection), identifying market needs and generating over $1M in additional ARR.",
             "Authored blogs and webinars to educate customers on product features and industry trends, enhancing engagement."
           ],
           skills: ["Professional Services", "Content Creation", "Product Innovation", "Customer Success Engineering"]
@@ -120,10 +120,24 @@ export default function Work() {
       <div className="absolute top-0 right-0 w-1/3 h-80 bg-gradient-to-br from-[#ff5a36] to-[#ff8c42] opacity-20 blur-3xl rounded-full -z-10" />
       
       <div className="max-w-4xl mx-auto px-4 py-16">
-        <h1 className="text-4xl md:text-5xl font-bold mb-4">Work Experience</h1>
-        <p className="text-xl text-[#a0a0a0] mb-12">
-          My professional journey and the companies I&apos;ve had the pleasure to work with.
-        </p>
+        <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-4 mb-12">
+          <div>
+            <h1 className="text-4xl md:text-5xl font-bold mb-4">Work Experience</h1>
+            <p className="text-xl text-[#a0a0a0]">
+              My professional journey and the companies I've had the pleasure to work with.
+            </p>
+          </div>
+          <a 
+            href="/chris-fiorino-resume.pdf" 
+            download
+            className="px-6 py-3 rounded-lg border border-[#ff5a36] text-[#ff5a36] font-medium hover:bg-[#ff5a36] hover:text-white transition-all flex items-center gap-2 whitespace-nowrap"
+          >
+            <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+            </svg>
+            Download Resume
+          </a>
+        </div>
         
         <div className="space-y-16">
           {experiences.map((company) => (

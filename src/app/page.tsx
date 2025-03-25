@@ -14,7 +14,7 @@ export default function Home() {
             Hi, I&apos;m <span className="gradient-text">Chris Fiorino</span>
           </h1>
           <p className="text-xl md:text-2xl max-w-2xl text-[#a0a0a0] mb-8">
-          Proven leader in Customer Success and Technical Account Management with a strong background in SaaS and cybersecurity. Led teams managing over $65M in ARR, driving satisfaction and retention. Skilled in strategic planning, cross-functional collaboration, and solving complex technical challenges. 
+            Proven leader in Customer Success and Technical Account Management with a strong background in SaaS and cybersecurity. Led teams managing over $65M in ARR, driving satisfaction and retention. Skilled in strategic planning, cross-functional collaboration, and solving complex technical challenges. 
           </p>
           <div className="flex flex-wrap gap-4">
             <Link 
@@ -29,6 +29,16 @@ export default function Home() {
             >
               About Me
             </Link>
+            <a 
+              href="/chris-fiorino-resume.pdf" 
+              download
+              className="px-6 py-3 rounded-lg border border-[#ff5a36] text-[#ff5a36] font-medium hover:bg-[#ff5a36] hover:text-white transition-all flex items-center gap-2"
+            >
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+              </svg>
+              Download Resume
+            </a>
           </div>
         </section>
         
