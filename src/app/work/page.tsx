@@ -124,7 +124,7 @@ export default function Work() {
           <div>
             <h1 className="text-4xl md:text-5xl font-bold mb-4">Work Experience</h1>
             <p className="text-xl text-[#a0a0a0]">
-              My professional journey and the companies I've had the pleasure to work with.
+              My professional journey and the companies I&apos;ve had the pleasure to work with.
             </p>
           </div>
           <a 
