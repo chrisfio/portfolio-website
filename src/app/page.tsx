@@ -14,7 +14,7 @@ export default function Home() {
             Hi, I&apos;m <span className="gradient-text">Chris Fiorino</span>
           </h1>
           <p className="text-xl md:text-2xl max-w-2xl text-[#a0a0a0] mb-8">
-            Proven leader in Customer Success and Technical Account Management with a strong background in SaaS and cybersecurity. Led teams managing over $65M in ARR, driving satisfaction and retention. Skilled in strategic planning, cross-functional collaboration, and solving complex technical challenges. 
+          Customer Success and Technical Account Management leader with deep experience in SaaS, cybersecurity, and startup environments. Proven track record from founding CSE roles to directing teams managing $65M+ ARR. Highly skilled in strategic planning, cross-functional leadership, and solving complex technical challenges. 
           </p>
           <div className="flex flex-wrap gap-4">
             <Link 
